@@ -1,8 +1,19 @@
 @import url(https://fonts.googleapis.com/css?family=Meddon);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,400,300);
-@import url(https://weloveiconfonts.com/api/?family=entypo);
+/*@import url(http://weloveiconfonts.com/api/?family=entypo);
 
-/* entypo */
+@font-face {
+font-family: 'entypo';
+font-style: normal;
+font-weight: normal;
+src: url('fonts/entypo.eot');
+src: url('fonts/entypo.eot?#iefix') format('eot'),
+url('fonts/entypo.woff') format('woff'),
+url('fonts/entypo.ttf') format('truetype'),
+url('fonts/entypo.svg#entypo') format('svg');
+}
+
+/* entypo */*/
 [class*="entypo-"]:before {
   font-family: 'entypo', sans-serif;
 }
