@@ -7,6 +7,12 @@
   font-family: 'entypo', sans-serif;
 }
 
+
+/* entypo */
+[class*="entypo-"]:before {
+  font-family: 'entypo', sans-serif;
+}
+
 body, ul, li {
   margin: 0;
   padding: 0;
@@ -302,9 +308,10 @@ small {
 
 .footer {
     background-color: #373948;
-    height: 150px;
+    height: 100px;
     width: 110%;
     margin-left: -24px;
+    margin-top: 175px;
 }
 
 #sheila {
@@ -321,9 +328,11 @@ small {
   .abouttext p {
     font-size: 24px;
   }
-  .videos{
-  position: absolute;
-  overflow: hidden;
-  margin-left: 25%;
+.column2 {
+  clear: both;
+  width: 100%;
+}
+#clients {
+  height: 960px;
 }
 
